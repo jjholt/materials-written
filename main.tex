@@ -1,0 +1,38 @@
+\documentclass[oneside]{article}
+\input{settings.tex}
+\begin{document}
+\input{preamble}
+\pagenumbering{roman}
+	\tableofcontents
+	% \listoffigures
+	% \listoftables 
+	\clearpage
+\pagenumbering{arabic}
+\section{Foreword}
+This paper discusses the devices outlined by Lancashire et al \cite{LancashireHenryT2019HERf}, who explore the usage of implantable electrodes that take advantage of transcutaneous prostheses. Some background is given about amputation prostheses and bone-anchored devices before delving into the paper.
+Furthermore, ``prosthesis'' refers exclusively to the bone-anchored devices, whereas mentions of ``prosthetic limb'' are prosthetic arms, hands, legs, etc. as appropriate.
+\section{Introduction}
+	\subimport{src/}{implant}
+\section{Aim}
+	\subimport{src/}{paper}
+\section{Experiment}
+	\subimport{src/}{experiment}
+\section{Results}
+	\subimport{src/}{results}
+\section{Discussion}
+	\subimport{src/}{discussion}
+\section{Conclusions}
+	\subimport{src/}{conclusions}
+\section{Implications}
+	\subimport{src/}{implications}
+\section{Problems}
+	\subimport{src/}{problems}
+\section{Is it better than any other implant that already exists?}
+	\subimport{src/}{opinion}
+
+\clearpage
+	
+	\bibliography{
+		bibliography
+	}
+\end{document}
