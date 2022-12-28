@@ -1,6 +1,9 @@
 ## Output pdf
 *.pdf
 
+## Title page
+preamble.tex
+
 ## Abaqus job files
 *.msg
 *.odb
